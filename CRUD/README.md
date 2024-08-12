@@ -44,6 +44,13 @@ git clone https://github.com/DanielMtz04/Inventario.git
 - Modifica el método addCorsMappings
 - Cambia http://localhost:5175 por el puerto local en el que se ejecuta la interfaz
 
-**7.-Ejecutar la Aplicación**
+**8.-Actualización de Dependencias de Maven en IntelliJ IDEA**
+
+- Abrir el Panel de Maven desde el Menú:
+- Ve a View > Tool Windows > Maven.
+- Encuentra el Ícono de Actualización (círculo con dos flechas)
+- Haz Clic en el Ícono de Actualización:
+
+**9.-Ejecutar la Aplicación**
 
 Haz clic en el botón Run (el ícono de reproducción verde) en la esquina superior derecha
