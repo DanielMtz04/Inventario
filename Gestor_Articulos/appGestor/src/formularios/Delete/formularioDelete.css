@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.formularioDelete {
+  display: flex;
+  width: 100%;
+}
+.headerDelete {
+  color: rgb(0, 0, 0);
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 2%;
+}
+.unoDelete {
+  flex: 2;
+}
+.tresDelete {
+  flex: 2;
+}
+
+.dosDelete {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 2%;
+  border-radius: 20px;
+}
+
+.labelDelete {
+  font-size: 0.9rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  align-self: flex-start;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.inputDelete {
+  width: 100%;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+}
+
+.inputDelete:focus {
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #000000;
+}
+
+.buttonContinueDelete {
+  background-color: #ff0101;
+  color: white;
+  align-items: center;
+  margin-top: 1%;
+  height: 35px;
+  width: 100%;
+  border-radius: 20px;
+  border-width: 0;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.buttonContinueDelete:hover {
+  background-color: #b70000;
+  color: white;
+}
+
+.buttonValidateDelete {
+  background-color: #08d108;
+  color: white;
+  align-items: center;
+  margin-top: 1%;
+  height: 35px;
+  width: 100%;
+  border-radius: 20px;
+  border-width: 0;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.buttonValidateDelete:hover {
+  background-color: #06ba06;
+  color: white;
+}
+
+.messageSkuDelete {
+  color: white;
+  align-self: flex-start;
+  font-size: 70%;
+}
+
+.messageSkuDelete2 {
+  color: #ff0101;
+  align-self: flex-start;
+  font-size: 70%;
+}
+
+.messageSkuValidDelete {
+  color: #ff7300;
+  align-self: flex-start;
+  font-size: 70%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+}
+
+.messageSuccesDelete {
+  color: #ff0101;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.stockQuantityContainerDelete {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.inputDeleteHalf {
+  flex: 2;
+}
+
+.buttonCancelDelete {
+  background-color: #c0bbba;
+  color: white;
+  align-items: center;
+  margin-top: 5%;
+  height: 35px;
+  width: 100%;
+  border-radius: 20px;
+  border-width: 0;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.buttonCancelDelete:hover {
+  background-color: #aca8a7;
+  color: white;
+}
